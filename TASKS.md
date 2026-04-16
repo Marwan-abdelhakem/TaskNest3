@@ -2,7 +2,7 @@
 
 Build each task as a new module from scratch. Reuse patterns from existing modules (`categories`, `products`, `orders`, `auth`).
 
-## Scenario 1 - Reviews Module
+## Scenario 1 - Reviews Module  *Implement*
 
 - [ ] Create `reviews` module where customers can review products.
   - **Goal:** Practice new entity relations and guarded endpoints.
@@ -15,7 +15,7 @@ Build each task as a new module from scratch. Reuse patterns from existing modul
   - **Must use:** DTOs, validation pipe, `JwtAuthGuard`, `RolesGuard`.
   - **Test checklist:** customer creates review, public can list product reviews, unauthorized create blocked.
 
-## Scenario 2 - Coupons Module 
+## Scenario 2 - Coupons Module   *Implement*
 
 - [ ] Create `coupons` module for discount codes.
   - **Goal:** Practice admin-only CRUD + validation + expiration logic.
